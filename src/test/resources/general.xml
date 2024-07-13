@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Main suit">
+    <test name="Smoke">
+        <classes>
+            <class name="CalcTest">
+                <methods>
+                    <include name="testDivision"/>
+                    <include name="dataProviderTest"/>
+                    <include name="dataProviderTestDouble"/>
+                    <include name="testDivisionZeroInt"/>
+                    <include name="testDivisionZeroDouble"/>
+                    <include name="testDivisionZeroByNumber"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
